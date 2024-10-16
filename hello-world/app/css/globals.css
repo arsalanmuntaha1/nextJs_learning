@@ -1,25 +1,16 @@
 :root {
-    --primary-color: #1e201e;
-    --text-color: #ff8225;
+    --primary-color: #2f3645;
+    --text-color: #e6b9a6;
 }
 body {
     background-color: var(--primary-color);
     color: var(--text-color);
+    margin: 0px;
 }
 span {
     color: #fcfaee;
 }
-.nav {
-    display: flex;
-    justify-content: space-between;
-}
-.nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    gap: 3rem;
-    padding-right: 3rem;
-}
+
 ul > li > a {
     text-decoration: none;
     color: var(--text-color);
@@ -27,16 +18,9 @@ ul > li > a {
 ul:hover {
     cursor: pointer;
 }
-.logo {
-    display: flex;
-    font-size: 1.5rem;
-}
-p {
-    text-align: center;
-}
+
 h1 {
     padding-top: 5rem;
-    text-align: center;
 }
 main {
     height: 33rem;
@@ -44,9 +28,7 @@ main {
 hr {
     border-color: #fcfaee;
 }
-footer {
-    text-align: center;
-}
+
 .aboutPage,
 .serviceId {
     display: grid;

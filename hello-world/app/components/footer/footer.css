@@ -1,0 +1,21 @@
+.container1 {
+    display: flex;
+    justify-content: space-around;
+}
+ul > li {
+    list-style: none;
+    padding-bottom: 3px;
+}
+footer {
+    text-align: center;
+    border-top: 3px solid #939185;
+}
+.bottom-bar {
+    border: 3px solid #939185;
+    background: #939185;
+    color: var(--primary-color);
+}
+.list {
+    padding-left: 0px;
+}
+
