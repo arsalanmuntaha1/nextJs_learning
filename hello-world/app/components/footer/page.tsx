@@ -37,13 +37,13 @@ export default function Footer() {
                     <h3>Follow Us</h3>
                     <ul className="footer-mediaicon">
                         <li>
-                            <a href="/https://www.linkedin.com/in/muntaha-arsalan-2390a22b6/">
+                            <a href="https://www.linkedin.com/in/muntaha-arsalan-2390a22b6/">
                                 <Image src={'/linkedin.svg'} alt="icon" width={20} height={20} />{' '}
                                 LinkedIn
                             </a>
                         </li>
                         <li>
-                            <a href="/https://github.com/arsalanmuntaha1">
+                            <a href="https://github.com/arsalanmuntaha1">
                                 <Image src={'/github.svg'} alt="icon" width={20} height={20} />{' '}
                                 Github
                             </a>
