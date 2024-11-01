@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Menu from './components/menu';
 import Button from './components/button';
+import About from './components/about';
 
 export default function Home() {
     return (
@@ -25,6 +26,7 @@ export default function Home() {
                 </div>
             </div>
             <Menu />
+            <About />
         </div>
     );
 }

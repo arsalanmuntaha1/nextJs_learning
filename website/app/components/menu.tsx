@@ -17,16 +17,42 @@ export default function Menu() {
                     <Button name="Drinks" />
                 </div>
 
-                <Image
-                    src={'/img/recipe_card.png'}
-                    alt={'title'}
-                    width={248}
-                    height={368}
-                    className="w-[248px] h-[368px] object-cover"
-                ></Image>
-
-                <div className="w-[80%] mt-[4rem] mx-auto">
-                    <PizzaCard title="Chipotle" image="/img/chipotle.png" reviews="6" price="$20" />
+                <div className="flex w-[80%] mt-[4rem] mx-auto">
+                    <PizzaCard
+                        title="Chipotle"
+                        image="/img/chipotle.png"
+                        details="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                        rating={5}
+                        price="$20"
+                    />
+                    <PizzaCard
+                        title="Ranch"
+                        image="/img/ranch.png"
+                        details="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                        rating={4}
+                        price="$13"
+                    />
+                    <PizzaCard
+                        title="Pepperoni"
+                        image="/img/peppronei.png"
+                        details="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                        rating={4}
+                        price="$15"
+                    />
+                    <PizzaCard
+                        title="Veggie Lover"
+                        image="/img/veggie.png"
+                        details="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                        rating={2}
+                        price="$7"
+                    />
+                    <PizzaCard
+                        title="Chicken Tikka"
+                        image="/img/chickentikka.png"
+                        details="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                        rating={3}
+                        price="$9.99"
+                    />
                 </div>
             </div>
         </div>

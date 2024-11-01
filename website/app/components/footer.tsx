@@ -2,8 +2,9 @@ import React from 'react';
 
 export default function Footer() {
     return (
-        <div>
-            <div className="font-mono">Saucy Sal's</div>
+        <div className='bg-[#2d1715] text-center text-white' >
+            <p>Created with love by Saucy Sal’s Pizza Shop.</p>
+            {/* <div className="font-mono">Saucy Sal's</div>
             <div>
                 <p>Menu</p>
                 <ul>
@@ -25,7 +26,7 @@ export default function Footer() {
                 </ul>
             </div>
             <div>Support</div>
-            <div>Menu</div>
+            <div>Menu</div> */}
         </div>
     );
 }
