@@ -9,7 +9,7 @@ export default function Menu() {
             <div className="pt-20">
                 <h4 className="text-center text-text font-semibold">OUR MENU</h4>
                 <h2 className="text-center pt-5 font-bold">DISCOVER OUR MENU</h2>
-                <div className="flex justify-center gap-10 pt-7">
+                <div className="flex flex-wrap justify-center gap-10 pt-7">
                     <Button name="Pizza" />
                     <Button name="Calzones" />
                     <Button name="Wraps" />
@@ -17,7 +17,7 @@ export default function Menu() {
                     <Button name="Drinks" />
                 </div>
 
-                <div className="flex w-[80%] mt-[4rem] mx-auto">
+                <div className="flex flex-wrap gap-2 w-[80%] mt-[4rem] mx-auto">
                     <PizzaCard
                         title="Chipotle"
                         image="/img/chipotle.png"
